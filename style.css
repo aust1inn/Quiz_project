@@ -16,6 +16,7 @@
         font-weight: bolder;
         position: fixed;
         width: 100%;
+        font-size: larger;
     }
     
     body{
@@ -44,4 +45,9 @@
         font-style: italic;
         background-color: rgb(19, 58, 184);
         margin-top: 1em;
+        position: static;
+    }
+
+    .results{
+        height: 10vh;
     }
