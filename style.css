@@ -8,5 +8,12 @@
     
     nav{
         background-color: pink;
+        height: 8vh;
     }
+    
+    body{
+        background-image: url("pexels-pixabay-268533.jpg");
+        background-size: cover;
+        color: white;
             
+    }
