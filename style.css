@@ -7,10 +7,10 @@
     }
     
     nav{
-        background-color: pink;
+        background-color: rgb(18, 58, 133);
         height: 6vh;
         text-align: center;
-        color: darkslategray;
+        color: snow;
         font-style: italic;
         font-family: rosario;
         font-weight: bolder;
@@ -38,4 +38,10 @@
         width: 150px;
         padding: 5px;
     }
-    
+
+    footer{
+        text-align: center;
+        font-style: italic;
+        background-color: rgb(120, 177, 223);
+        margin-top: 1em;
+    }

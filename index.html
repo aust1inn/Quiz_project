@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js"></script>
+    <script type="text/javascript" src="index.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>World quiz</title>
 </head>
@@ -13,7 +13,7 @@
         <p>Know Your World quiz</p>
     </nav>
     
-    <form name="first" id="quiz" action="action_page.php">
+    <form name="quiz" id="quiz" >
         <div class="questions">
             <p>1. Which is the largest country in the world</p>
 
@@ -61,7 +61,7 @@
             <P><input type="radio" name="quiz5" id="" value="Evanston">D. Evanston</P> 
         </div>
         
-        <button id="submit" type="submit">submit</button>
+        <input type="button" id="submit" name="" value="submit" onclick="check()">
     </form>
 
     <footer>
