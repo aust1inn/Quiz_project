@@ -5,12 +5,13 @@ function check () {
     var q3 = document.quiz.quiz3.value;
     var q4 = document.quiz.quiz4.value;
     var q5 = document.quiz.quiz5.value;
-
+    var result =document.getElementById("result")
     if (q1=="Russia") {c++}
     if (q2=="Caracas") {c++}
     if (q3=="North America") {c++}
     if (q4=="Hugo Chavez") {c++}
     if (q5=="Evanston") {c++}
 
+    
     document.write(c)
 }
