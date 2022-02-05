@@ -23,5 +23,15 @@
     }
     .questions{
         margin-top: 2em;
-        margin-left: 5em;
+        margin-left: 10em;
+        font-size: large;
+    }
+
+    #submit{
+        margin-left: 50em;
+        padding: 10px;
+        background-color: blueviolet;
+        font-size: larger;
+        color: white;
+        font-weight: bolder;
     }
