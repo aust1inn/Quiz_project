@@ -8,12 +8,20 @@
     
     nav{
         background-color: pink;
-        height: 8vh;
+        height: 6vh;
+        text-align: center;
+        color: darkslategray;
+        font-style: italic;
+        font-family: rosario;
+        font-weight: bolder;
     }
     
     body{
         background-image: url("pexels-pixabay-268533.jpg");
         background-size: cover;
         color: white;
-            
+    }
+    .questions{
+        margin-top: 2em;
+        margin-left: 5em;
     }
