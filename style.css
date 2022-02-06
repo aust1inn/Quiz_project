@@ -55,11 +55,11 @@
     .results{
         height: 10vh;
         text-align: center;
-        color: beige;
+        color: yellowgreen;
         font-size: xx-large;
         font-weight: bolder;
         font-style: italic;
         position: absolute;
         top: 30%;
-        left: 45%;
+        left: 30%;
     }

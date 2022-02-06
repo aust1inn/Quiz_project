@@ -21,7 +21,7 @@ function check () {
     footer.style.display="none"
 
     if (c<=30) {
-        result.textContent = (c)+" " + "Do more research on our magnificient world.Try again"
+        result.textContent = (c)+" " + "(Do more research on our magnificient world.)"
     }
     else{
         result.textContent = (c)+" " + "Keep it up!"
