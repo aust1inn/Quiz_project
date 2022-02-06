@@ -24,6 +24,7 @@ This is the link to the design of the amazing site
 https://www.figma.com/file/Z9ihOUiGgvWVSMPUuv27S1/Quizz-Board?node-id=0%3A1
 
 Below is the link to the live demo
+https://aust1inn.github.io/Quiz_project/
 
 ## Technologies Used
 An HTML file was used to create the website
