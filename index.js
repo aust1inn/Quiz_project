@@ -21,10 +21,10 @@ function check () {
     footer.style.display="none"
 
     if (c<=30) {
-        result.textContent = (c)+" " + "(Do more research on our magnificient world.)"
+        result.textContent = (c)+"/50"+" " + "(Do more research on our magnificient world.)"
     }
     else{
-        result.textContent = (c)+" " + "Keep it up!"
+        result.textContent = (c)+"/50" +" " +"Keep it up!"
     }
 
 }
