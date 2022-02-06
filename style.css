@@ -32,12 +32,15 @@
 
     #submit{
         margin-left: 40em;
-        background-color: palevioletred;
+        background-color: rgb(184, 132, 233);
         font-size: larger;
         color: white;
         font-weight: bolder;
         width: 150px;
         padding: 5px;
+        font-style: italic;
+        border: 1px groove;
+        border-radius: 20px;
     }
 
     footer{
