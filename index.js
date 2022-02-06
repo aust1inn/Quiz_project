@@ -7,15 +7,20 @@ function check () {
     var q5 = document.quiz.quiz5.value;
     
     var result =document.getElementById("result")
-    var display=document.getElementById("quiz")
+    var quiz=document.getElementById("quiz")
+    var footer=document.getElementById("footer")
    
-    if (q1=="Russia") {c++}
-    if (q2=="Caracas") {c++}
-    if (q3=="North America") {c++}
-    if (q4=="Hugo Chavez") {c++}
-    if (q5=="Evanston") {c++}
+    if (q1=="Russia") {c+=10}
+    if (q2=="Caracas") {c+=10}
+    if (q3=="North America") {c+=10}
+    if (q4=="Hugo Chavez") {c+=10}
+    if (q5=="Evanston") {c+=10}
 
-    if (c<=3) {
+    quiz.style.visibility="hidden"
+    result.style.display="block"
+    footer.style.display="none"
+
+    if (c<=30) {
         result.textContent = (c)+" " + "Poor!"
     }
     else{

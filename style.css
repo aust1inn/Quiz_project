@@ -50,4 +50,9 @@
 
     .results{
         height: 10vh;
+        text-align: center;
+        color: beige;
+        font-size: xx-large;
+        font-weight: bolder;
+        font-style: italic;
     }
